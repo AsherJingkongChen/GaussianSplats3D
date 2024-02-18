@@ -19,7 +19,7 @@
         "build-library-windows": "npx rollup -c && (if not exist \".\\build\\demo\\lib\" mkdir .\\build\\demo\\lib) && copy .\\build\\gaussian-splats-3d* .\\build\\demo\\lib\\",
         "build-windows": "npm run build-library-windows && npm run build-demo-windows",
         "watch": "npx npm-watch ",
-        "demo": "node util/server.js -d ./build/demo",
+        "demo": "./util/server.py -d ./build/demo",
         "fix-styling": "npx stylelint **/*.scss --fix",
         "fix-js": "npx eslint src --fix",
         "lint": "npx eslint 'src/**/*.js' || true",
