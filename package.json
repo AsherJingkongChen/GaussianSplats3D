@@ -1,9 +1,10 @@
 {
-    "name": "@mkkellogg/gaussian-splats-3d",
+    "name": "@asherjingkongchen/gaussian-splats-3d",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mkkellogg/GaussianSplat3D"
+        "url": "https://github.com/AsherJingkongChen/GaussianSplat3D"
     },
+    "private": true,
     "version": "0.2.3",
     "description": "Three.js-based 3D Gaussian splat viewer",
     "module": "build/gaussian-splats-3d.module.js",
